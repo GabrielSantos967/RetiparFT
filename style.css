@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins/Poppins-Medium.ttf);
+}
+
+body{
+    background-color: #DEE2E6;
+}
+
+.titleColor{
+    color: red;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#formli{
+    width: 100px;
+}
+
+.tabelas{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    gap: 21px;
+    padding: 10px;
+}
+
+li{
+    border-radius: 20px;
+}
+
+p{
+    font-family: 'Poppins';
+}
